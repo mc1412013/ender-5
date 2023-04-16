@@ -1,3 +1,6 @@
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL.cpp:27:
 Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
  1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
       |                          ^~~~~~~~~
@@ -13,3 +16,225 @@ Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of m
 In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
                  from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
                  from Marlin\src\HAL\STM32\HAL_SPI.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\HAL.cpp.o] Error 1
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\MarlinSerial.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_bl24cxx.cpp:32:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\Servo.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\HAL_SPI.cpp.o] Error 1
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_flash.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\MarlinSerial.cpp.o] Error 1
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\eeprom_bl24cxx.cpp.o] Error 1
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\Servo.cpp.o] Error 1
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_if_iic.cpp:32:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sram.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\eeprom_flash.cpp.o] Error 1
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sdcard.cpp:31:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_wired.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\eeprom_if_iic.cpp.o] Error 1
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\eeprom_sram.cpp.o] Error 1
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\fastio.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\fast_pwm.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\sdio.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\eeprom_sdcard.cpp.o] Error 1
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\eeprom_wired.cpp.o] Error 1
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\fastio.cpp.o] Error 1
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\fast_pwm.cpp.o] Error 1
+In file included from Marlin\src\HAL\STM32\tft\../../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\tft\../../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\tft\gt911.cpp:26:
+Marlin\src\HAL\STM32\tft\../../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\tft\../../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\tft\../../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\tft\../../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\sdio.cpp.o] Error 1
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\tft\gt911.cpp.o] Error 1
+In file included from Marlin\src\HAL\STM32\tft\../../../inc/MarlinConfigPre.h:37,
+                 from Marlin\src\HAL\STM32\tft\../../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\tft\tft_fsmc.cpp:27:
+Marlin\src\HAL\STM32\tft\../../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\tft\../../../inc/../core/macros.h:285:31: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                               ^
+Marlin\src\HAL\STM32\tft\../../../inc/SanityCheck.h:1361:26: error: 'ADVANCE_K' was not declared in this scope; did you mean 'ADVANCED_OK'?
+ 1361 |     static_assert(WITHIN(ADVANCE_K, 0, 10), "ADVANCE_K must be from 0 to 10 (Changed in LIN_ADVANCE v1.5, Marlin 1.1.9).");
+      |                          ^~~~~~~~~
+Marlin\src\HAL\STM32\tft\../../../inc/../core/macros.h:285:45: note: in definition of macro 'WITHIN'
+  285 | #define WITHIN(N,L,H)       ((N) >= (L) && (N) <= (H))
+      |                                             ^
+*** [.pio\build\BIGTREE_SKR_2\src\src\HAL\STM32\tft\tft_fsmc.cpp.o] Error 1
