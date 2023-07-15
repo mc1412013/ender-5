@@ -1,1 +1,1 @@
-code doesnt work looking for help
+echo:Unknown command: "G34"
